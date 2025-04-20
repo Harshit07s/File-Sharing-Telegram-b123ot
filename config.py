@@ -24,7 +24,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🕊️</b>\n{u
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "<b>Don't send me messages directly I'm only working for @km_portal </b>‼️")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7035510529:AAH96RvUzm5PuDw_O2LjaByVAOwRs1rdHeQ") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7eQ") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "21395055"))
 #your api hash from https://my.telegram.org/apps
