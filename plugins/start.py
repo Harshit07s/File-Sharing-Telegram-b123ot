@@ -117,7 +117,7 @@ async def start_command(client: Client, message: Message):
                         await snt_msg.delete()  
                     except: 
                         pass    
-                await notification_msg.edit("<b>Your file has been successfully deleted! by @km_portal</b>")  
+                await notification_msg.edit("<b>Your file has been successfully deleted! by @hiddenlust7 </b>")  
                 return
             if (U_S_E_P):
                 if verify_status['is_verified'] and VERIFY_EXPIRE < (time.time() - verify_status['verified_time']):
@@ -180,7 +180,7 @@ async def start_command(client: Client, message: Message):
                             await snt_msg.delete()  
                         except: 
                             pass    
-                    await notification_msg.edit("<b>Your file has been successfully deleted! 😼 @km_portal</b>")  
+                    await notification_msg.edit("<b>Your file has been successfully deleted! 😼 @hiddenlust7 </b>")  
                     return
             except:
                     newbase64_string = await encode(f"sav-ory-{_string}")
