@@ -26,9 +26,9 @@ USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "<b>JOIN @HIDDENLUST7 </b>â€
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7258583448:AAFiPwUxqeEVWkB9qL0ke-LK1eidVn6jII4") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", "21395055"))
+APP_ID = int(os.environ.get("APP_ID", "24375843"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "7ceb30ad3ca754f861a20dcc8f6e7ac8")
+API_HASH = os.environ.get("API_HASH", "ba42424bf26bff8ac722db3acf3c6c43")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002290948621"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
