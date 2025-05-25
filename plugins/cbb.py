@@ -10,9 +10,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
     if data == "about":
         await query.message.edit_text(
-            text = f'<b>○ Language : <a href="https://t.me/+cPHof45LIckwNzNl">Python</a></b> 🐍\n'
+            text = f'<b>○ Language : <a href="https://t.me/hiddenlust7">Python</a></b> 🐍\n'
                    f'<b>○ Version : v{__version__} 🫏</b>\n'
-                   f'<b>○ Developer : @Sinsfull_bot😼</b>',
+                   f'<b>○ Developer : <b> kya krega😼</b>',
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("🔒 Close", callback_data="close")]]
